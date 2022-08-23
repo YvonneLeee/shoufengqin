@@ -1,11 +1,13 @@
 
 
-
-import React from 'react'
+import ExampleA from "./ExampleA"
+import './App.css'
 
 export default function App() {
   return (
-    <div>App_dev_2</div>
+    <div className="app">
+      <ExampleA />
+    </div>
   )
 }
 
